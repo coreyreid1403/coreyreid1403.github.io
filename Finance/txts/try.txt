@@ -1,0 +1,10 @@
+
+Savings,Total,4.23,Cash,7746.5,401k,00.00,
+Spending,Total,8953.73,Spent,01.00,
+Tith,Total,1859.23,Spent,01.00,
+Spent,Total,4.23,CurrentMonth,4.23,PastMonth,01.00,CurrentYear,4.23,PastYear,01.00,
+SpentTypes,Food,4.23,Clothes,51,Vacation,4.23,Children,23.2,Car,4.23,Entertainment,28.8,Phone,1,Disney+,00.00,Spotify,10.95,
+TithTypes,NAS,00.00,Church,00.00,
+Monthly,Disney+,6.99,Spotify,10.95,Phone,100,
+Child,Olivia,00.00,22,Charlei,3232.32,200,Sam,00.01,00.11,
+Contributor,Corey,2275.00,1,.09,.50,.10,Sahara,2000.00,.08,1,.50,.10,
