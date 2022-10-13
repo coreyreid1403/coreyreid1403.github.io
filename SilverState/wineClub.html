@@ -1,0 +1,99 @@
+<!DOCTYPE html>   <!-- this is a comment -->
+
+<html>
+<head>
+				<title>Silver State</title>
+				<meta charset="UTF-8">
+				<meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<link href="styles.css" rel="stylesheet" type="text/css">
+				<meta name="keywords"content="nevada vineyard, nevada winery, silver state winery, silver state vineyard, 
+				silver state winery and vineyard, nevada wine, local nevada winery, local nevada vineyard, reno wine, 
+				reno vineyard"/>
+				<meta name="description"content="Siver State Vineyard and Winery is a local Nevadan vineyard located in Silver Springs, NV"/>                  
+	</head>
+			<script>
+		function myFunction() {
+			document.getElementById("myDropdown").classList.toggle("show");
+		}
+		window.onclick = function(event) {
+		  if (!event.target.matches('.dropbtn')) {
+
+			var dropdowns = document.getElementsByClassName("dropdown-content");
+			var i;
+			for (i = 0; i < dropdowns.length; i++) {
+			  var openDropdown = dropdowns[i];
+			  if (openDropdown.classList.contains('show')) {
+				openDropdown.classList.remove('show');
+			  }
+			}
+		  } 
+		}
+		function myFunction2() {
+			document.getElementById("myDropdown2").classList.toggle("show2");
+		}
+		window.onclick = function(event) {
+		  if (!event.target.matches('.dropbtn2')) {
+
+			var dropdowns = document.getElementsByClassName("dropdown2-content");
+			var i;
+			for (i = 0; i < dropdowns.length; i++) {
+			  var openDropdown = dropdowns[i];
+			  if (openDropdown.classList.contains('show2')) {
+				openDropdown.classList.remove('show2');
+			  }
+			}
+		  } 
+		}
+		</script>
+	<body>
+	<div id="container"> 
+	<div id="banner">
+					<div id="logo">
+					<img src="img/logo.gif" alt="logo">
+					<!--End Logo-->
+					</div>
+        </div>
+
+		<div id="links">
+		<br /><br /><br />
+		&nbsp;<a href="index.html" id="tab-1"></a>
+			<div class="dropdown">
+	<button onclick="myFunction()" class="dropbtn" id="button"></button>
+	  <div id="myDropdown" class="dropdown-content">
+			<a href="services.html">Services</a>
+			<a href="location.html">Location</a>
+			<a href="nearby.html">Near By</a>
+			<a href="wineClub.html">Wine Club</a>
+		  </div>
+		</div>
+				<a href="products.html" id="tab-2"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;<a href="events.html" id="tab-3"></a>&nbsp;
+				<a href="contact.html" id="tab-4"></a>&nbsp;
+						<div class="dropdown">
+		<button onclick="myFunction2()" class="dropbtn2" id="button2"></button>
+		  <div id="myDropdown2" class="dropdown2-content">
+			<a href="vineyard.html">VineYard</a>
+			<a href="nevada.html">Nevada</a>
+			<a href="prospector.html">Prospector</a>
+		  </div>
+		</div>
+		<!--End links-->
+</div>  
+		<div id="body">
+		<div id ="main">
+		<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<center><b><h1>Wine Club</h1>
+
+
+			</center>
+		</div>   
+		 <!--End body-->
+		</div>
+		<div id="footer"><br /><br /><br />
+		<center>Silver State Winery and Vinyard<br>1285 W 9th Street Siver Springs, NV<br>©Site Design 2021</center>
+		 <!--End footer-->
+		 </div>
+		 <!--End Container-->
+		</div>
+	</body>
+</html>
