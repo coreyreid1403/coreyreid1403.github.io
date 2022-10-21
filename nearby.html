@@ -11,14 +11,14 @@
 				reno vineyard"/>
 				<meta name="description"content="Siver State Vineyard and Winery is a local Nevadan vineyard located in Silver Springs, NV"/>
 			</head>
-					<script>
+		<script>
 		function myFunction() {
-			document.getElementById("myDropdown").classList.toggle("show");
+			document.getElementById('myDropdown').classList.toggle('show');
 		}
 		window.onclick = function(event) {
 		  if (!event.target.matches('.dropbtn')) {
 
-			var dropdowns = document.getElementsByClassName("dropdown-content");
+			var dropdowns = document.getElementsByClassName('dropdown-content');
 			var i;
 			for (i = 0; i < dropdowns.length; i++) {
 			  var openDropdown = dropdowns[i];
@@ -29,17 +29,17 @@
 		  } 
 		}
 		function myFunction2() {
-			document.getElementById("myDropdown2").classList.toggle("show2");
+			document.getElementById('myDropdown2').classList.toggle('show');
 		}
 		window.onclick = function(event) {
 		  if (!event.target.matches('.dropbtn2')) {
 
-			var dropdowns = document.getElementsByClassName("dropdown2-content");
+			var dropdowns = document.getElementsByClassName('dropdown2-content');
 			var i;
 			for (i = 0; i < dropdowns.length; i++) {
 			  var openDropdown = dropdowns[i];
-			  if (openDropdown.classList.contains('show2')) {
-				openDropdown.classList.remove('show2');
+			  if (openDropdown.classList.contains('show')) {
+				openDropdown.classList.remove('show');
 			  }
 			}
 		  } 
@@ -55,10 +55,10 @@
         </div>
 
 		<div id="links">
-		<br /><br /><br />
-		&nbsp;<a href="index.html" id="tab-1"></a>
+		&nbsp;
+		<a href="index.html"><button class="neu-btn">Home</button></a>
 			<div class="dropdown">
-	<button onclick="myFunction()" class="dropbtn" id="button"></button>
+	<button onclick="myFunction()" class="neu-btn">Wines</button>
 	  <div id="myDropdown" class="dropdown-content">
 			<a href="services.html">Services</a>
 			<a href="location.html">Location</a>
@@ -66,19 +66,19 @@
 			<a href="wineClub.html">Wine Club</a>
 		  </div>
 		</div>
-				<a href="products.html" id="tab-2"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-				&nbsp;<a href="events.html" id="tab-3"></a>&nbsp;
-				<a href="contact.html" id="tab-4"></a>&nbsp;
+				<a href="products.html" id="tab-2"><button class="neu-btn">Products</button></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				&nbsp;<a href="events.html"><button class="neu-btn">Events</button></a>&nbsp;
+				<a href="contact.html"><button class="neu-btn">Contact Us</button></a>&nbsp;
 						<div class="dropdown">
-		<button onclick="myFunction2()" class="dropbtn2" id="button2"></button>
-		  <div id="myDropdown2" class="dropdown2-content">
+		<button onclick="myFunction2()" class="neu-btn">History</button>
+		  <div id="myDropdown2" class="dropdown-content">
 			<a href="vineyard.html">VineYard</a>
 			<a href="nevada.html">Nevada</a>
 			<a href="prospector.html">Prospector</a>
 		  </div>
 		</div>
-		<!--End links-->
-   </div>  
+				<!--End links-->
+							</div> 
 		<div id="body">
 		<div id ="main">
 		<br /><br /><br /><br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
