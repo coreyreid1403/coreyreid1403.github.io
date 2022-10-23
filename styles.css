@@ -78,6 +78,13 @@
 		border-left: 4px  solid #959595;
 		border-right: 4px  solid #959595;
 		}
+		
+	@media(max-width:1200px){
+		#links{
+				height:60px;
+		}
+	}
+		
 	h3.events{
 		padding-left: 20%;
 	}
@@ -124,7 +131,7 @@
 		background-color: #45a049;
 	}
 	
-		.dropdown {
+	.dropdown {
 		position: relative;
 		display: inline-block;
 	}
@@ -186,6 +193,12 @@
 			5px 5px 10px rgba(0, 0, 0, 0.25);
 	}
 	
+	@media(max-width:1200px){
+		.neu-btn{
+				height: 45px;
+		}
+	}
+	
 	.neu-btn:hover{
 		box-shadow: -1px -1px 5px rgba(255, 255, 255, 0.6),
 			1px 1px 5px rgba(0, 0, 0, 0.3),
@@ -208,12 +221,12 @@
 		animation: float 5s ease-in-out infinite;
 	}
 	
-	@media(min-width:1200px){
+	@media(max-width:1200px){
 		.icon{
 				height: 50px;
 				width: 50px;
-			}
 		}
+	}
 	
 	.ri-facebook-circle-line{
 		animation-delay: 0s;
