@@ -208,6 +208,13 @@
 		animation: float 5s ease-in-out infinite;
 	}
 	
+	@media(min-width:1200px){
+		.icon{
+				height: 50px;
+				width: 50px;
+			}
+		}
+	
 	.ri-facebook-circle-line{
 		animation-delay: 0s;
 	}
