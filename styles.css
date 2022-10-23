@@ -154,6 +154,12 @@
 		text-decoration: none;
 		display: block;
 	}
+	
+	@media(max-width:1200px){
+		.dropdown-content a{
+				font-size: 20px;
+		}
+	}
 
 	.dropdown a:hover {background-color: #ddd}
 
@@ -196,6 +202,7 @@
 	@media(max-width:1200px){
 		.neu-btn{
 				height: 45px;
+				font-size: 20px;
 		}
 	}
 	
